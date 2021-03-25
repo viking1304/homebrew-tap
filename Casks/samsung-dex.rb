@@ -9,7 +9,9 @@ cask "samsung-dex" do
 
   pkg "Install Samsung DeX.pkg"
 
-  uninstall script: {
-    executable: "#{staged_path}/Uninstall.app/Contents/MacOS/Uninstall",
-  }
+  uninstall pkgutil:    [
+                          'com.samsung.pkg.ssud',
+                          'com.samsung.pkg.mss_connectivity2',
+                          'com.samsung.pkg.dexonpc',
+                        ]
 end
