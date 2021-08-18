@@ -1,5 +1,5 @@
 cask "textsniper" do
-  version "1.5.0"
+  version "1.7.0"
   sha256 :no_check
 
   url "https://textsniper.app/api/downloads/mac-latest"
