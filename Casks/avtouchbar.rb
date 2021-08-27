@@ -1,8 +1,8 @@
 cask "avtouchbar" do
-  version "3.0.6"
-  sha256 "f7d02d0ff050ef42b077f0941ff9ab7e65a4e3ee43f60dcd17758f6733e18c87"
+  version "3.0.7"
+  sha256 "d04c1a6685e7ce59e10bae4464b6a113aa7bf302f5b515768055aa8326ecb8e1"
 
-  url "https://www.avtouchbar.com/wp-content/uploads/2021/01/AVTouchBar-3.0.6.zip"
+  url "https://www.avtouchbar.com/wp-content/uploads/2021/08/AVTouchBar-3.0.7.zip"
   name "AVTouchBar"
   desc "Audio Visualizer for the Touch Bar"
   homepage "https://www.avtouchbar.com/"
