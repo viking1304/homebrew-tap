@@ -2,7 +2,7 @@ cask "jump-desktop-connect" do
     version "4.1.3"
     sha256 :no_check
 
-    url "https://jumpdesktop.com/downloads/connect/mac"
+    url "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.dmg"
 
     name "Jump Desktop Connect"
     desc "Configure your computer for remote access by installing the free Jump Desktop Connect app"
