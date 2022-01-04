@@ -10,7 +10,7 @@ cask "jump-desktop-connect" do
 
     depends_on macos: ">= :sierra"
 
-    pkg "JumpDesktopConnect.pkg"
+    pkg ".jdc.sparkle_guided.pkg""
 
     uninstall pkgutil: "com.p5sys.jump.connect"
 end
